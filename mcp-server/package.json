@@ -1,0 +1,30 @@
+{
+  "name": "saai-skill-feedback",
+  "version": "1.0.0",
+  "description": "MCP skill for submitting feedback about any Claude skill",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "saai-skill-feedback": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "feedback",
+    "servicenow",
+    "skill"
+  ],
+  "author": "David Rider",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "zod": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
