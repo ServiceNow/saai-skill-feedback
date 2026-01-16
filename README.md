@@ -11,7 +11,7 @@ Report bugs, request enhancements, or propose new skills - all tracked in Servic
 ### Install
 
 ```bash
-git clone https://github.com/yourusername/saai-skill-feedback.git
+git clone https://github.com/ServiceNow/saai-skill-feedback.git
 cd saai-skill-feedback/mcp-server
 ./install.sh
 ```
